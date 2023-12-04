@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+
+    <!-- Font Awesome Library -->
+    <script
+      src="https://kit.fontawesome.com/0268a9b753.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fav-Icon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Gaming Gears | Home</title>
+  </head>
+  <body>
+    <!-- End Change Color  -->
+    <!-- Start Header Section -->
+    <div class="header" id="header">
+      <div class="container">
+        <header>
+          <div class="logo">
+            <a class="logo" href="#">GG</a>
+          </div>
+          <nav class="list">
+            <div class="head">
+              <div class="logo">
+                <a class="logo" href="#">GG</a>
+              </div>
+              <i id="icon-x" class="fa-solid fa-x icon-x"></i>
+            </div>
+
+            <ul>
+              <li class="activ"><a href="#">Mouses</a></li>
+              <li><a href="#">Keyboards</a></li>
+              <li><a href="#">Headsets</a></li>
+              <li><a href="#">Mousepads</a></li>
+            </ul>
+
+            <div class="social-media">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </nav>
+          <nav class="users">
+            <div class="user">
+              <div class="user-icon">
+                <i class="fa-solid fa-user icon-user"></i>
+              </div>
+              <span>John Doe</span>
+            </div>
+            <div class="cart">
+              <i id="icon-cart" class="fa-solid fa-cart-shopping cart-user"></i>
+              <span id="counter">0</span>
+            </div>
+            <div class="cart-items" id="cart-items">
+              <div class="head">
+                <h3>Shopping Cart</h3>
+                <i id="icon-x-cart" class="fa-solid fa-x icon-x"></i>
+              </div>
+              <div class="items"></div>
+              <div class="items-total">
+                <div class="total">
+                  <div class="subtotal">
+                    <p>Total Price</p>
+                    <span class="total-price">0</span>
+                  </div>
+                  <div class="btn">
+                    <button>checkout</button>
+                  </div>
+                </div>
+              </div>
+              <div class="body">
+                <div class="s">
+                  <img src="./assets/imgs/empty-box.png" alt="cart-imgs" />
+                </div>
+                <div class="text">
+                  <h5>your cart is empty</h5>
+                  <p>looks like you haven't added any items to your cart yet</p>
+                </div>
+                <div class="btn">
+                  <button>add item to cart</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <i id="icon-menu" class="fa-solid fa-bars icon icon-active"></i>
+        </header>
+        <div id="overlay" class="overlay"></div>
+      </div>
+    </div>
+    <!-- End Header Section -->
+    <!-- Start Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="slides">
+          <div class="slider slide-1">
+            <p class="opc-text">mouse</p>
+            <div class="slider-body">
+              <div class="text">
+                <div class="text-span text-span-1">welcom to gaming gears</div>
+                <div class="content">
+                  <p class="min-p">
+                    Mouse - <br />
+                    Logitech G903
+                  </p>
+                  <p class="sec-p">
+                    <span class="del">$ 199</span>$ <span id="price">100</span>
+                  </p>
+                </div>
+              </div>
+              <div class="imgs">
+                <div class="img">
+                  <img
+                    id="imgs"
+                    src="./assets/imgs/hero-mouse.svg"
+                    alt="Mouse Logitech G903"
+                  />
+                </div>
+                <div class="arrows">
+                  <i class="fa-solid fa-angle-right icon slider-icon-right"></i>
+                  <i class="fa-solid fa-angle-left icon slider-icon-left"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slider-footer">
+              <div class="box">
+                <div class="social-media">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="add-cart">
+                  <i id="add-plus" class="fa-solid fa-plus"></i>
+                  <span>Add To Cart</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon-down">
+                  <a href="#products"
+                    ><i class="fa-solid fa-chevron-down"></i
+                  ></a>
+                </div>
+                <div class="page-number page-n"></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider slide-2">
+            <p class="opc-text">Headsets</p>
+            <div class="slider-body">
+              <div class="text">
+                <div class="text-span text-span-2">welcom to gaming gears</div>
+                <div class="content">
+                  <p class="min-p">
+                    Headset -HyberX <br />
+                    Cloud
+                  </p>
+                  <p class="sec-p">
+                    <span class="del">$ 299</span>$ <span id="price">200</span>
+                  </p>
+                </div>
+              </div>
+              <div class="imgs">
+                <div class="img">
+                  <img
+                    id="imgs"
+                    src="./assets/imgs/hero-headset.svg"
+                    alt="Headset HyberX Cloud"
+                  />
+                </div>
+                <div class="arrows">
+                  <i class="fa-solid fa-angle-right icon slider-icon-right"></i>
+                  <i class="fa-solid fa-angle-left icon slider-icon-left"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slider-footer">
+              <div class="box">
+                <div class="social-media">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="add-cart">
+                  <i id="add-plus" class="fa-solid fa-plus"></i>
+                  <span>Add To Cart</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon-down">
+                  <a href="#products"
+                    ><i class="fa-solid fa-chevron-down"></i
+                  ></a>
+                </div>
+                <div class="page-number page-n"></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider slide-3">
+            <p class="opc-text">Keyboards</p>
+            <div class="slider-body">
+              <div class="text">
+                <div class="text-span">welcom to gaming gears</div>
+                <div class="content">
+                  <p class="min-p">
+                    Keyboard -Razer Blackwindow <br />
+                    X Chrom
+                  </p>
+                  <p class="sec-p">
+                    <span class="del">$ 199</span>$ <span id="price"> 100</span>
+                  </p>
+                </div>
+              </div>
+              <div class="imgs">
+                <div class="img">
+                  <img
+                    id="imgs"
+                    src="./assets/imgs/hero-keyboard.svg"
+                    alt="Keyboard Razer Blackwindow X Chrom"
+                  />
+                </div>
+                <div class="arrows">
+                  <i class="fa-solid fa-angle-right icon slider-icon-right"></i>
+                  <i class="fa-solid fa-angle-left icon slider-icon-left"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slider-footer">
+              <div class="box">
+                <div class="social-media">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="add-cart">
+                  <i id="add-plus" class="fa-solid fa-plus"></i>
+                  <span>Add To Cart</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon-down">
+                  <a href="#products"
+                    ><i class="fa-solid fa-chevron-down"></i
+                  ></a>
+                </div>
+                <div class="page-number page-n"></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider slide-4">
+            <p class="opc-text">Mousepad</p>
+            <div class="slider-body">
+              <div class="text">
+                <div class="text-span">welcom to gaming gears</div>
+                <div class="content">
+                  <p class="min-p">
+                    Mousepad -Steelseries <br />
+                    CS:GO
+                  </p>
+                  <p class="sec-p">
+                    <span class="del">$ 199</span>$ <span id="price"> 99</span>
+                  </p>
+                </div>
+              </div>
+              <div class="imgs">
+                <div class="img">
+                  <img
+                    id="imgs"
+                    src="./assets/imgs/hero-mousbad.svg"
+                    alt="Mousepad Steelseries CS:GO"
+                  />
+                </div>
+                <div class="arrows">
+                  <i class="fa-solid fa-angle-right icon slider-icon-right"></i>
+                  <i class="fa-solid fa-angle-left icon slider-icon-left"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slider-footer">
+              <div class="box">
+                <div class="social-media">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="add-cart">
+                  <i id="add-plus" class="fa-solid fa-plus"></i>
+                  <span>Add To Cart</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon-down">
+                  <a href="#products"
+                    ><i class="fa-solid fa-chevron-down"></i
+                  ></a>
+                </div>
+                <div class="page-number page-n"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start Products Section -->
+    <section class="products" id="products">
+      <div class="container">
+        <div class="product">
+          <div class="box">
+            <p class="opc-text">mouse</p>
+            <div class="content">
+              <div class="text">
+                <div class="pric">
+                  <span>starting from</span>
+                  <p>$29</p>
+                </div>
+                <div class="footer">
+                  <div class="name">
+                    <h3>Mouses</h3>
+                  </div>
+                  <div class="add-cart">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>Browse</span>
+                  </div>
+                </div>
+              </div>
+              <div class="imgs">
+                <img src="./assets/imgs/product-mouse.svg" alt="mouse" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="opc-text">headset</p>
+            <div class="content">
+              <div class="text">
+                <div class="pric">
+                  <span>starting from</span>
+                  <p>$49</p>
+                </div>
+                <div class="footer">
+                  <div class="name">
+                    <h3>Headsets</h3>
+                  </div>
+                  <div class="add-cart">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>Browse</span>
+                  </div>
+                </div>
+              </div>
+              <div class="imgs">
+                <img src="./assets/imgs/product-headset.svg" alt="heastes" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="opc-text">keyboards</p>
+            <div class="content">
+              <div class="text">
+                <div class="pric">
+                  <span>starting from</span>
+                  <p>$25</p>
+                </div>
+                <div class="footer">
+                  <div class="name">
+                    <h3>Keyboards</h3>
+                  </div>
+                  <div class="add-cart">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>browse</span>
+                  </div>
+                </div>
+              </div>
+              <div class="imgs">
+                <img src="./assets/imgs/product-keyboard.svg" alt="keyboards" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="opc-text">mousepads</p>
+            <div class="content">
+              <div class="text">
+                <div class="pric">
+                  <span>starting from</span>
+                  <p>$10</p>
+                </div>
+                <div class="footer">
+                  <div class="name">
+                    <h3>Mousepads</h3>
+                  </div>
+                  <div class="add-cart">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>browse</span>
+                  </div>
+                </div>
+              </div>
+              <div class="imgs">
+                <img src="./assets/imgs/hero-mousbad.svg" alt="mouspads" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Products Section -->
+    <!-- Start Featured Section -->
+    <section class="featured" id="featured">
+      <div class="container">
+        <div class="sliders">
+          <p class="opc-text">Featured</p>
+          <div class="slider-feat slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>Featured Gears</h3>
+                <div class="add-cart" id="cart-feat">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-1.png"
+                      alt="mouse Steelseries Sensei 310"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Sensei 310</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">10</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-1.png"
+                      alt="keyboard Razer Blackwindow X Chroma"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Blackwindow X Chroma</p>
+                      <p class="comp-name">Razer</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">199.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-2.png"
+                      alt="headsets Hyper X Cloud"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cloud</p>
+                      <p class="comp-name">Hyper X</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">155.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-1.png"
+                      alt="mousepad Steelseries QCK Limited"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">QCK Limited</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">35</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-feat page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-feat"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-feat"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-feat slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>Featured Gears</h3>
+                <div class="add-cart" id="cart-feat">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-2.png"
+                      alt="mouse Logitech G703"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">G703</p>
+                      <p class="comp-name">Logitech</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">25</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-2.png"
+                      alt="keyboard Steelserie Apex M500"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Apex M500</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">125</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-3.png"
+                      alt="headsets Hyper X Cloud"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cloud</p>
+                      <p class="comp-name">Hyper X</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-2.png"
+                      alt="mousepad Steelseries CS GO"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">CS GO</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">35</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-feat page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-feat"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-feat"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-feat slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>Featured Gears</h3>
+                <div class="add-cart" id="cart-feat">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-3.png"
+                      alt="mouse Logitech G603"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">G603</p>
+                      <p class="comp-name">Logitech</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">10</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-3.png"
+                      alt="keyboard Asus Cerberus"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cerberus</p>
+                      <p class="comp-name">Asus</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">199.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-1.png"
+                      alt="headsets Steelseries Arctis 3"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Arctis 3</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-3.png"
+                      alt="mousepad Steelseries QCK CS GO Edition"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">QCK CS GO Edition</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">35</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-feat page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-feat"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-feat"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-feat slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>Featured Gears</h3>
+                <div class="add-cart" id="cart-feat">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-4.png"
+                      alt="mouse Logitech G903"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">G903</p>
+                      <p class="comp-name">Logitech</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">220</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-4.png"
+                      alt="keyboard Asus Cerberus"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cerberus</p>
+                      <p class="comp-name">Asus</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">199.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-4.png"
+                      alt="headsets Cloud Black Hyper X"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cloud Black</p>
+                      <p class="comp-name">Hyper X</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-4.png"
+                      alt="mousepad Steelseries CS GO Limited"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">CS GO Limited</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">99</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-feat page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-feat"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-feat"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Featured Section -->
+
+    <!-- Start Gears Section -->
+    <section class="gears" id="gears">
+      <div class="container">
+        <div class="sliders">
+          <p class="opc-text">Gears</p>
+
+          <div class="slider-gears slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>New Gears</h3>
+                <div class="add-cart">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-3.png"
+                      alt="mouse Logitech G603"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">G603</p>
+                      <p class="comp-name">Logitech</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">10</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-3.png"
+                      alt="keyboard Asus Cerberus"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cerberus</p>
+                      <p class="comp-name">Asus</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">199.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-1.png"
+                      alt="headsets Steelseries Arctis 3"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Arctis 3</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-3.png"
+                      alt="mousepad Steelseries QCK CS GO Edition"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">QCK CS GO Edition</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">35</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-gears page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-gears"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-gears"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-gears slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>New Gears</h3>
+                <div class="add-cart">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-4.png"
+                      alt="mouse Logitech G903"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">G903</p>
+                      <p class="comp-name">Logitech</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">220</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-4.png"
+                      alt="keyboard Asus Cerberus"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cerberus</p>
+                      <p class="comp-name">Asus</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">199.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-4.png"
+                      alt="headsets Hyper X Cloud Black"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cloud Black</p>
+                      <p class="comp-name">Hyper X</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-4.png"
+                      alt="mousepad Steelseries CS GO Limited"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">CS GO Limited</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">99</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-gears page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-gears"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-gears"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-gears slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>New Gears</h3>
+                <div class="add-cart">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-1.png"
+                      alt="mouse Steelseries Sensei 310"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Sensei 310</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">10</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-1.png"
+                      alt="keyboard Razer Blackwindow X Chroma"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Blackwindow X Chroma</p>
+                      <p class="comp-name">Razer</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">199.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-2.png"
+                      alt="headsets Hyper X Cloud"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cloud</p>
+                      <p class="comp-name">Hyper X</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-1.png"
+                      alt="mousepad Steelseries QCK Limited"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">QCK Limited</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">35</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-gears page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-gears"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-gears"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-gears slider-global">
+            <div class="content">
+              <div class="headers">
+                <h3>New Gears</h3>
+                <div class="add-cart">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>browse</span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mous-2.png"
+                      alt="mouse Logitech G703"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">G703</p>
+                      <p class="comp-name">Logitech</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">25</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/keyboard-2.png"
+                      alt="keyboard Steelseries Apex M500"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Apex M500</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">125</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/head-3.png"
+                      alt="headsets Hyper X Cloud"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">Cloud</p>
+                      <p class="comp-name">Hyper X</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">159.9</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgs">
+                    <img
+                      id="imgs"
+                      src="./assets/imgs/mousbad-2.png"
+                      alt="mousepad Steelseries CS GO"
+                    />
+                  </div>
+                  <div class="text">
+                    <div class="name">
+                      <p class="pro-name">CS GO</p>
+                      <p class="comp-name">Steelseries</p>
+                    </div>
+                    <div class="pric">
+                      <p>$<span id="price">35</span></p>
+                    </div>
+                    <div class="add-cart-s">
+                      <i id="add-plus" class="fa-solid fa-plus"></i>
+                      <span>Add To Cart</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="text">
+                  <div class="text-span text-span-1">
+                    welcom to gaming gears
+                  </div>
+                </div>
+                <div class="page-number-gears page-n"></div>
+                <div class="arrows">
+                  <i
+                    class="fa-solid fa-angle-right icon slider-icon-right-gears"
+                  ></i>
+                  <i
+                    class="fa-solid fa-angle-left icon slider-icon-left-gears"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gears Section -->
+    <!-- Start Players Section -->
+    <section class="palyers" id="players">
+      <div class="container">
+        <div class="boxes">
+          <div class="box player-one">
+            <p class="opc-text">Tests</p>
+            <div class="content">
+              <div class="text">
+                <div class="name">
+                  <p>Video test of geaming gears</p>
+                </div>
+                <div class="info">
+                  <div class="info-head">
+                    <h3>Gear tests by pro gammer</h3>
+                  </div>
+                  <div class="add-cart-s">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Watch Videos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="imgs">
+                <img src="./assets/imgs/player-1.png" alt="Players" />
+              </div>
+            </div>
+            <img
+              class="img-back"
+              src="./assets/imgs/player-background-1.jpeg"
+              alt="player-background"
+            />
+          </div>
+          <div class="box player-two">
+            <p class="opc-text">Tips</p>
+            <div class="content">
+              <div class="text">
+                <div class="name">
+                  <p>Trickly tips in gs:go, LOL and dota to</p>
+                </div>
+                <div class="info">
+                  <div class="info-head">
+                    <h3>Games Tips Thanks To Pros</h3>
+                  </div>
+                  <div class="add-cart-s">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Watch Videos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="imgs">
+                <img src="./assets/imgs/player-2.png" alt="Players" />
+              </div>
+            </div>
+            <img
+              class="img-back"
+              src="./assets/imgs/player-background-2.jpeg"
+              alt="player-background"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Players Section -->
+    <!-- Start Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="content">
+          <p class="opc-text">Newsletter</p>
+          <div class="heading">
+            <h3>Newsletter</h3>
+            <p>
+              subscribe do not miss any promotions or our new videos with gammer
+            </p>
+          </div>
+          <div class="form">
+            <label for="email"><span>enter</span> your email adress</label>
+            <div class="add-cart-s">
+              <i class="fa-solid fa-plus"></i>
+              <span>subscribe</span>
+            </div>
+          </div>
+          <div class="input">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+            <input class="input-button" type="button" value="subscribe" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start Footer Section -->
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-list">
+            <div class="list">
+              <div class="social-media">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <ul>
+                <li><a href="#">Mouses</a></li>
+                <li><a href="#">Keyboards</a></li>
+                <li><a href="#">Headsets</a></li>
+                <li><a href="#">Mousepads</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">Accesories</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Consolse</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Warranty Policy</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+              </ul>
+            </div>
+            <div class="text">
+              <p>
+                gaming gears is the new online shop where you can find and buy
+                one of the best gaming equipment in the lowest price since 2020.
+                gaminggear provides devices for gamers lic mouse, headsets,
+                keyboards, mousepads, computers and others accesories
+              </p>
+              <p><span>coustomer support</span> +218-91-5969312</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-logo">
+          <div class="logo">
+            <a class="logo" href="#">GG</a>
+            <p>Gaming Gears</p>
+          </div>
+          <p class="copyright">
+            <span>GamingGears </span> All Rights Reserved By
+            <span>AR-Media</span>
+            <bdi>2023&copy;</bdi>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Footer Section -->
+    <!-- GO TO TOP -->
+    <a href="#" id="go-to-top" class="btn btn-prim go-to-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+    <!-- Main JS File -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
